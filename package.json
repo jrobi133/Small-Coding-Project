@@ -1,5 +1,5 @@
 {
-  "name": "memory-games",
+  "name": "coding-project",
   "version": "1.0.0",
   "description": "",
   "main": "server/app.js",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jrobi133/memory-games.git"
+    "url": "git+https://github.com/jrobi133/Small-Coding-Project.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jrobi133/memory-games/issues"
+    "url": "https://github.com/jrobi133/Small-Coding-Project/issues"
   },
-  "homepage": "https://github.com/jrobi133/memory-games#readme",
+  "homepage": "https://github.com/jrobi133/Small-Coding-Project#readme",
   "devDependencies": {
     "concurrently": "^4.1.0",
     "nodemon": "^1.18.7"
