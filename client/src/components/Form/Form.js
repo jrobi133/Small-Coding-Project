@@ -56,7 +56,7 @@ const Form = ({ currentId, setCurrentId }) => {
         onSubmit={handleSubmit}
       >
         <Typography variant="h6">
-          {currentId ? `Editing "${post.title}"` : "Creating a Memory"}
+          {currentId ? `Editing "${post.title}"` : "Creating New Product"}
         </Typography>
         <TextField
           name="title"
@@ -84,9 +84,7 @@ const Form = ({ currentId, setCurrentId }) => {
           label="Price"
           fullWidth
           value={postData.price}
-          onChange={(e) =>
-            setPostData({ ...postData, price: e.target.value.split(",") })
-          }
+          onChange={(e) => setPostData({ ...postData, price: e.target.value })}
         />
         <TextField
           name="quantity"
@@ -95,7 +93,7 @@ const Form = ({ currentId, setCurrentId }) => {
           fullWidth
           value={postData.quantity}
           onChange={(e) =>
-            setPostData({ ...postData, quantity: e.target.value.split(",") })
+            setPostData({ ...postData, quantity: e.target.value })
           }
         />
         <div className={classes.fileInput}>
