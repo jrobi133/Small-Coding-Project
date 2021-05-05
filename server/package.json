@@ -23,6 +23,7 @@
     "express-jwt": "^6.0.0",
     "helmet": "^4.4.1",
     "jwks-rsa": "^1.12.2",
-    "mongoose": "^5.9.29"
+    "mongoose": "^5.9.29",
+    "nodemon": "^1.18.7"
   }
 }
